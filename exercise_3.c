@@ -18,11 +18,11 @@ void Function1()
   scanf("%d",&a);
   if (a==0)
     {
-      printf("The number you entered equals zero\n");
+      printf(" The number you entered equals zero\n");
     }
   else
     {
-      printf("The number you entered does not equal zero\n");
+      printf(" The number you entered does not equal zero\n");
     }
 }
 
@@ -33,11 +33,11 @@ void Function2()
   scanf("%f%f",&a,&b);
   if(a>b)
     {
-      printf("%f is the largest\n",a);
+      printf(" %f is the largest\n",a);
     }
   else
     {
-      printf("%f is the largest\n",b);
+      printf(" %f is the largest\n",b);
     }
 }
 void Function3()
@@ -46,11 +46,11 @@ void Function3()
   scanf("%d",&a);
   if (a%2==0)
     {
-      printf("Result is: %d\n",a/2);
+      printf(" Result is: %d\n",a/2);
     }
   else
     {
-      printf("Result is %d\n",a*3); 
+      printf(" Result is: %d\n",a*3); 
     }
 }
 void Function4()
@@ -64,10 +64,10 @@ void Function4()
 
   if (d*e*f==0)
     {
-      printf("Some numbers are equal\n");
+      printf(" Some numbers are equal\n");
     }
   else
     {
-      printf("All are unique\n");
+      printf(" All are unique\n");
     }
 }
