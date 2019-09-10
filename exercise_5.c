@@ -11,6 +11,10 @@ void Function_1()
   scanf("%d",&a);
   do
     {
+      if (a==0)
+      {
+       break;
+      }
       printf("%d\n",i);
       i++;
     }
