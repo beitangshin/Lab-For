@@ -22,7 +22,7 @@ while(i<=a);
 
 
 
-  printf("Run again(y/n)? ");
+  printf("Run again (y/n)? ");
   scanf(" %c",&mark);
 }
 int main()
