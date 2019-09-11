@@ -21,25 +21,28 @@ void Function_2()
   printf("Numbers 1 to 100;\n");
   for (i=1;i<=100;i++)
     {
-      printf("%d ",i);
+      printf("%2d ",i);
       for (;i==10*j;j++)
 	{
           printf("\n");	 
         }
     }
   
-  printf("\n");
 }
 void Function_3()
 {
   int a;
-   while(a!=0)
-     {
        printf("Give a number:");
        scanf("%d",&a);
+
+       while(a!=0)
+	 {
        printf("The square of %d is %d\n",a,a*a);
-     }
-   printf("You entered zero.\n");
+       printf("Give a number;");
+       scanf("%d",&a);
+          }
+     
+             printf(" You entered zero.\n");
 }
 int main()
 {
