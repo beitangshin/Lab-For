@@ -18,7 +18,7 @@ void Function_2()
 {
   int i=1;
   int j=1;
-  printf("Numbers 1 to 100;\n");
+  printf("Numbers 1 to 100:\n");
   for (i=1;i<=100;i++)
     {
       printf("%2d ",i);
@@ -37,8 +37,8 @@ void Function_3()
 
        while(a!=0)
 	 {
-       printf("The square of %d is %d\n",a,a*a);
-       printf("Give a number;");
+       printf(" The square of %d is %d\n",a,a*a);
+       printf("Give a number:");
        scanf("%d",&a);
           }
      
@@ -53,4 +53,3 @@ int main()
   
 
 }
-
