@@ -51,11 +51,11 @@ int main()
     {
       scanf("%d",&mArray[i]);
     }
-  printf("Initial array:{");
+  printf(" Initial array: {");
   Function_1(mArray);
   printf("}\n");
   printf("Number of 0's: %d\n",CountZero(mArray));
- printf("Tripled array:{");
+ printf("Tripled array: {");
   Function_2(mArray);
   printf("}\n");
   return 0;
